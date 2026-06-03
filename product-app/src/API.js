@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:1343/api/v1";
+const BASE_URL  = "http://localhost:1343/api/v1";
 
 export const getProducts = () => axios.get(`${BASE_URL}/getpro`);
 
