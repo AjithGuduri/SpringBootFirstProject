@@ -18,7 +18,7 @@ public class ProductController {
 
 	//  INSERT
 	// http://localhost:1343/api/v1/insertp
-	@PostMapping("/insertp")
+	@PostMapping("/insertpro")
 	public Product insertpro(@RequestBody Product product) {
 		return productrepo.save(product);
 	}
